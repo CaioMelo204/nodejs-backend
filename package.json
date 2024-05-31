@@ -1,0 +1,27 @@
+{
+  "name": "express-first-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon app.mjs",
+    "start": "node app.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "debug": "^4.3.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  },
+  "nodemonConfig": {
+    "env": {
+      "PORT": 3000
+    }
+  }
+}
